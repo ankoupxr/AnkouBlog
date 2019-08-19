@@ -1,0 +1,256 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\终极面试准备\\AnkouBlog\\AnkouBlog.Repository\\AnkouBlog.Repository.csproj": {}
+  },
+  "projects": {
+    "D:\\终极面试准备\\AnkouBlog\\AnkouBlog.Common\\AnkouBlog.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\终极面试准备\\AnkouBlog\\AnkouBlog.Common\\AnkouBlog.Common.csproj",
+        "projectName": "AnkouBlog.Common",
+        "projectPath": "D:\\终极面试准备\\AnkouBlog\\AnkouBlog.Common\\AnkouBlog.Common.csproj",
+        "packagesPath": "C:\\Users\\ankou\\.nuget\\packages\\",
+        "outputPath": "D:\\终极面试准备\\AnkouBlog\\AnkouBlog.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ankou\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.AspNetCore.SignalR": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Microsoft.Extensions.Caching.Memory": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "StackExchange.Redis": {
+              "target": "Package",
+              "version": "[2.0.601, )"
+            },
+            "log4net": {
+              "target": "Package",
+              "version": "[2.0.8, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "D:\\终极面试准备\\AnkouBlog\\AnkouBlog.IRepository\\AnkouBlog.IRepository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\终极面试准备\\AnkouBlog\\AnkouBlog.IRepository\\AnkouBlog.IRepository.csproj",
+        "projectName": "AnkouBlog.IRepository",
+        "projectPath": "D:\\终极面试准备\\AnkouBlog\\AnkouBlog.IRepository\\AnkouBlog.IRepository.csproj",
+        "packagesPath": "C:\\Users\\ankou\\.nuget\\packages\\",
+        "outputPath": "D:\\终极面试准备\\AnkouBlog\\AnkouBlog.IRepository\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ankou\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "D:\\终极面试准备\\AnkouBlog\\AnkouBlog.Model\\AnkouBlog.Models.csproj": {
+                "projectPath": "D:\\终极面试准备\\AnkouBlog\\AnkouBlog.Model\\AnkouBlog.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "D:\\终极面试准备\\AnkouBlog\\AnkouBlog.Model\\AnkouBlog.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\终极面试准备\\AnkouBlog\\AnkouBlog.Model\\AnkouBlog.Models.csproj",
+        "projectName": "AnkouBlog.Models",
+        "projectPath": "D:\\终极面试准备\\AnkouBlog\\AnkouBlog.Model\\AnkouBlog.Models.csproj",
+        "packagesPath": "C:\\Users\\ankou\\.nuget\\packages\\",
+        "outputPath": "D:\\终极面试准备\\AnkouBlog\\AnkouBlog.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ankou\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "D:\\终极面试准备\\AnkouBlog\\AnkouBlog.Common\\AnkouBlog.Common.csproj": {
+                "projectPath": "D:\\终极面试准备\\AnkouBlog\\AnkouBlog.Common\\AnkouBlog.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "sqlSugarCore": {
+              "target": "Package",
+              "version": "[5.0.0.9, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "D:\\终极面试准备\\AnkouBlog\\AnkouBlog.Repository\\AnkouBlog.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\终极面试准备\\AnkouBlog\\AnkouBlog.Repository\\AnkouBlog.Repository.csproj",
+        "projectName": "AnkouBlog.Repository",
+        "projectPath": "D:\\终极面试准备\\AnkouBlog\\AnkouBlog.Repository\\AnkouBlog.Repository.csproj",
+        "packagesPath": "C:\\Users\\ankou\\.nuget\\packages\\",
+        "outputPath": "D:\\终极面试准备\\AnkouBlog\\AnkouBlog.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ankou\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "D:\\终极面试准备\\AnkouBlog\\AnkouBlog.IRepository\\AnkouBlog.IRepository.csproj": {
+                "projectPath": "D:\\终极面试准备\\AnkouBlog\\AnkouBlog.IRepository\\AnkouBlog.IRepository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "MiniProfiler.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[4.0.180, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

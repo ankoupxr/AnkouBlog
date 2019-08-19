@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+<PropertyGroup>
+  <TargetFramework>netcoreapp2.2</TargetFramework>
+</PropertyGroup>
+
+<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+  <OutputPath>..\AnkouBlog\bin\Debug\</OutputPath>
+</PropertyGroup>
+
+<ItemGroup>
+  <PackageReference Include="AutoMapper" Version="8.1.1" />
+  <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="6.1.1" />
+</ItemGroup>
+
+<ItemGroup>
+  <ProjectReference Include="..\AnkouBlog.IRepository\AnkouBlog.IRepository.csproj" />
+  <ProjectReference Include="..\AnkouBlog.IServices\AnkouBlog.IServices.csproj" />
+  <ProjectReference Include="..\AnkouBlog.Model\AnkouBlog.Models.csproj" />
+</ItemGroup>
+
+
+</Project>
